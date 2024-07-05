@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from aux.utils import trunc_normal
+from auxi.utils import trunc_normal
 
 
 class Discriminator(nn.Module):
