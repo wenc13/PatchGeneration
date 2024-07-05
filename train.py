@@ -8,10 +8,10 @@ import torch.nn.functional as F
 import torch.utils.data
 from datetime import datetime
 
-from aux.loss import ChamferLoss
-from aux.model import Discriminator, Encoder, MLP_Generator, PointTrans_Generator, DualTrans_Generator
-from aux.utils import Logger, save_ply_batch
-from aux.dataset import ShapeNet
+from auxi.loss import ChamferLoss
+from auxi.model import Discriminator, Encoder, MLP_Generator, PointTrans_Generator, DualTrans_Generator
+from auxi.utils import Logger, save_ply_batch
+from auxi.dataset import ShapeNet
 
 
 # ======================================================= Usage =======================================================
