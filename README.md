@@ -8,7 +8,7 @@ It is the PyTorch implementation of the paper:
 A generative model for high-fidelity point clouds is of great importance in synthesizing 3d environments for applications such as autonomous driving and robotics. Despite the recent success of deep generative models for 2d images, it is non-trivial to generate 3d point clouds without a comprehensive understanding of both local and global geometric structures. In this paper, we devise a new 3d point cloud generation framework using a divide-and-conquer approach, where the whole generation process can be divided into a set of patch-wise generation tasks. Specifically, all patch generators are based on learnable priors, which aim to capture the information of geometry primitives. We introduce point- and patch-wise transformers to enable the interactions between points and patches. Therefore, the proposed divide-and-conquer approach contributes to a new understanding of point cloud generation from the geometry constitution of 3d shapes. Experimental results on a variety of object categories from the most popular point cloud dataset, ShapeNet, show the effectiveness of the proposed patch-wise point cloud generation, where it clearly outperforms recent state-of-the-art methods for high-fidelity point cloud generation. 
 
 <div align="left">
-<img src="teaser/teaser.png" height="1244" width="516" >
+<img src="teaser/teaser.png" height="258" width="622" >
 
 ## Citation
 If you find our work useful in your research, please consider citing:
