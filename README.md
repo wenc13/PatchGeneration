@@ -27,12 +27,22 @@ To run this code, you need first install these python packages:
 ```
 python 3.8  
 pytorch 1.10  
-torchvision, numpy, tqdm, h5py, plyfile, matplotlib, scipy, networkx  
+torchvision, numpy, plyfile
 ```
 
 ## Dataset
 
 ## Usage
+In this paper, we propose three different generator architectures.
+```
+# MLP generator
+CUDA_VISIBLE_DEVICES=0 python train.py --generator MLP --class_choice chair
 
+# Point transformer generator
+CUDA_VISIBLE_DEVICES=0 python train.py --generator PointTrans --class_choice chair
+
+# Dual transformer generator
+CUDA_VISIBLE_DEVICES=0 python train.py --generator DualTrans --class_choice chair
+```
 ## License
 The code is released under MIT License (see LICENSE file for details).
